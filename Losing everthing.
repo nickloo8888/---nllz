@@ -1,0 +1,86 @@
+The response was:
+Message bounced due to organizational settings.
+
+
+----------------------------------------------
+message/delivery-status
+----------------------------------------------
+Reporting-MTA: dns; googlemail.com
+Received-From-MTA: dns; Loochoonfatt8888@protonmail.com
+Arrival-Date: Sat, 03 Aug 2024 12:19:17 -0700 (PDT)
+X-Original-Message-ID: <i1cPgLyO4e5fN1nayI_UlBeEJhVoBI_zwQxMTfp6dHeEiR5kBshSEXxcbi9dbhEc5L-_BGjKi4r5mRDMOIiiNbl6l-r4WASzQAUjOw2SFpg=@protonmail.com>
+
+Final-Recipient: rfc822; noreply@github.com
+Action: failed
+Status: 4.3.0
+Diagnostic-Code: smtp; Message bounced due to organizational settings.
+Last-Attempt-Date: Sat, 03 Aug 2024 12:19:18 -0700 (PDT)
+
+
+----------------------------------------------
+message/rfc822
+----------------------------------------------
+X-Google-Smtp-Source: AGHT+IErCJXBMdaCtlamM6KnC/1Ayy5/qab/L5rOCfF3WXuaJrrlMCNoKLQriRrcwOoij6zmbyOI
+X-Received: by 2002:a5d:5d81:0:b0:36b:d3bc:af03 with SMTP id ffacd0b85a97d-36bd3bcb085mr1047785f8f.15.1722712757545;
+Sat, 03 Aug 2024 12:19:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1722712757; cv=none;
+d=google.com; s=arc-20160816;
+b=Fj9UUQSd0SKGI67YHwbG96/NmqAwd2eH9j1g4nE57cZskg7KnpWJcdRnnRgb2vFeQx
+SlvaMk7VF33ML0KSdebgsm+Yu2olONCq9wNCxi66x1Ez3yN5CWFas91RVFNPn0ID3MBA
+Y17VeVG2DtbjbmUNuYsBAfY3rNSfH7MChJCd7IGS1KeLVcj8ME4z/x43fE/ijwJFGw6U
+z5+RXb5ohGfYtaq1GXofwBUpMwnUYwibwi+7YPQuaRAe0r/lRYsVqKJD4wziaSdr4H3p
+jQWN/+/TCApjwhXCJ9jvvz22sZdRbHJmhB/SancdNhG4Wr9SVy1odR80yiz4Y/r1z/Ih
+Sw9g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+h=mime-version:feedback-id:references:in-reply-to:message-id:subject
+:from:to:date:dkim-signature;
+bh=CgrDEqYKiSi6KpA+iGQD6gZBuN8Weag0tzkVw6lDTqc=;
+fh=C5YKzyTNe6DVy7NscGlbog8xF/YjT1L4YB/6QNJeC+w=;
+b=TVPmxEBFzHwcS1JraRisga11s+iw2m2DpgqWnvw5djw4guTEhMlOTFoczrp04O5kWD
+S1qAJFaRIfIasypwK7Ec1ew+Lpbbs278OpCoME5h26RcJygwK3GkfDbD9+v4LhVP/eso
+TvyQhWMB1ZnP7uXqnUELBFxLiDaAJmKQkVJ4+qrnq3lgFIIAqsPUDPlMYw2OayvFrrUq
+ELwsyW7iKCo6O4VZVLhd5efVZNh54wmHybtOvdS2qfFC1cQieRnocFLfYydv3vAbSilb
+33g+6p5EzcF/iTXxzG1H3i67bdUKEgoIGbHBbX28jB+N6meZ090CVQ+ORh+5+TVl9FgN
+NkmA==;
+dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+dkim=pass header.i=@protonmail.com header.s=protonmail3 header.b=VwFa0Qsn;
+spf=pass (google.com: domain of loochoonfatt8888@protonmail.com designates 185.70.40.137 as permitted sender) smtp.mailfrom=Loochoonfatt8888@protonmail.com;
+dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=protonmail.com
+Return-Path: <Loochoonfatt8888@protonmail.com>
+Received: from mail-40137.protonmail.ch (mail-40137.protonmail.ch. [185.70.40.137])
+by mx.google.com with ESMTPS id ffacd0b85a97d-36bbd075376si2368738f8f.689.2024.08.03.12.19.17
+for <noreply@github.com>
+(version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+Sat, 03 Aug 2024 12:19:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of loochoonfatt8888@protonmail.com designates 185.70.40.137 as permitted sender) client-ip=185.70.40.137;
+Authentication-Results: mx.google.com;
+dkim=pass header.i=@protonmail.com header.s=protonmail3 header.b=VwFa0Qsn;
+spf=pass (google.com: domain of loochoonfatt8888@protonmail.com designates 185.70.40.137 as permitted sender) smtp.mailfrom=Loochoonfatt8888@protonmail.com;
+dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=protonmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=protonmail.com;
+s=protonmail3; t=1722712756; x=1722971956;
+bh=CgrDEqYKiSi6KpA+iGQD6gZBuN8Weag0tzkVw6lDTqc=;
+h=Date:To:From:Subject:Message-ID:In-Reply-To:References:
+Feedback-ID:From:To:Cc:Date:Subject:Reply-To:Feedback-ID:
+Message-ID:BIMI-Selector;
+b=VwFa0QsnfuMMqrD0v6yNUqVNQ7YHVTO83mFyucB2SCDXJiGS74V0IG3NONZoKP3YK
+/wGq6WGsSNlfBQAdYX8qktPaJP0bkha/eWO9w0poP/9qsul+JR0BcJdo9LZ9bPR7dP
+YuPQxZq2W7+TMFodlGCP37IOUT1OayHdz01eSl6JH0AABpkW0/JJUiwYiM4ti1H8iE
+n3JGgtHgqrKorSxgWcmWTUULhR++ri1uhtkw5sgvNZ7X4kzkhtOlQfW+gotJQ+Fclp
+CKU9EdClEvneE+5iETCYAyvDL/mlhddgY2xrqYMPYtR3nd9f2hJJj8++4xtaAPyir5
+4Sl3FhbPcHwtg==
+Date: Sat, 03 Aug 2024 19:19:12 +0000
+To: "noreply@github.com" <noreply@github.com>
+From: Nick <Loochoonfatt8888@protonmail.com>
+Subject: Re: [ACTION REQUIRED] Your GitHub account, nickloo8888, will soon require 2FA
+Message-ID: <i1cPgLyO4e5fN1nayI_UlBeEJhVoBI_zwQxMTfp6dHeEiR5kBshSEXxcbi9dbhEc5L-_BGjKi4r5mRDMOIiiNbl6l-r4WASzQAUjOw2SFpg=@protonmail.com>
+In-Reply-To: <66ad7602b598f_931c5c914c7@lowworker-8654d69fcb-s2j2n.mail>
+References: <66ad7602b598f_931c5c914c7@lowworker-8654d69fcb-s2j2n.mail>
+Feedback-ID: 25165491:user:proton
+X-Pm-Message-ID: 88acccc8256e1dede6b43de54b2062957bfb8a10
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+boundary="b1_XNOIU2hHXsaU2TT1EyvgvtTTpVlv8UWOciyIg6YOvWk"
+
+----- Message truncated -----
