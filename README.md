@@ -180,3 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+if (error.code === "INSUFFICIENT_BALANCE") {
+    userMessage = `Not enough Pi for mining. Required: ${error.requiredBalance}, You have: ${error.currentBalance}`; 
+}
+// ... other error cases ...
