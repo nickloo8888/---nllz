@@ -111,3 +111,72 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const startMiningBtn = document.getElementById('start-mining');
+    const statusMessage = document.getElementById('status-message');
+
+    // SDK Initialization (Improved)
+    async function initializeSDK() {
+        try {
+            await Pi.init({ apiKey: 'YOUR_ACTUAL_API_KEY_FROM_MINEPI' }); // Still a placeholder
+            console.log("Minepi SDK initialized successfully!");
+            statusMessage.textContent = "SDK ready. Log in to start mining.";
+        } catch (err) {
+            console.error("Minepi SDK initialization error:", err);
+            statusMessage.textContent = "Error loading Minepi. Please try again later.";
+        }
+    }
+
+    initializeSDK(); // Call initialization function
+
+    startMiningBtn.addEventListener('click', async () => {
+        startMiningBtn.disabled = true;
+        statusMessage.textContent = "Attempting to start mining...";
+
+        try {
+            const isUserLoggedIn = await Pi.authenticateUser();
+
+            if (!isUserLoggedIn) {
+                statusMessage.textContent = "Please log in to your Pi account.";
+                return;
+            }
+ const miningResult = await Pi.startMining();
+            if (miningResult.success) {
+                statusMessage.textContent = "Mining started successfully!";
+                // Add periodic mining status updates if applicable:
+                // setInterval(async () => {
+                //     const status = await Pi.getMiningStatus();  // Hypothetical 
+                //     statusMessage.textContent = `Mining: ${status.speed} Pi/hr, ${status.earned} Pi earned`; 
+                // }, 5000); // Example update every 5 seconds
+            } else {
+               handleError(miningResult.error);   // Delegate error handling
+            }
+        } catch (error) {
+           handleError(error);                // Delegate error handling
+        } finally {
+            startMiningBtn.disabled = false;
+        }
+    });
+ function handleError(error) {       // Centralized Error Handling
+        console.error("Mining or Authentication Error:", error);
+        let userMessage = "An unexpected error occurred.";  // Generic
+        if (error.code) {                    // Hypothetical codes - from SDK docs
+            if (error.code === "INSUFFICIENT_BALANCE") {    
+                userMessage = "Not enough Pi for mining."
+            } else if (error.code === "NETWORK_ERROR") {
+                userMessage = "Network error. Check your connection."
+            } else if (error.code === "AUTH_FAILED") {         
+                userMessage = "Login failed. Check your credentials.";
+            } else {                      // Default case 
+                userMessage = "Error " + error.code + ": " + (error.message || "Unknown"); 
+            }
+        }
+
+        statusMessage.textContent = userMessage; // Set message in UI
+        if(error.detailedMessage) {            // Display detailed messages to the developer console
+            console.error(error.detailedMessage);  // Only if present and relevant for debugging
+        }    
+    }
+
+
+});
