@@ -184,3 +184,17 @@ if (error.code === "INSUFFICIENT_BALANCE") {
     userMessage = `Not enough Pi for mining. Required: ${error.requiredBalance}, You have: ${error.currentBalance}`; 
 }
 // ... other error cases ...
+class AuthenticationError extends Error { 
+    constructor(message, reason) {
+        super(message);
+        this.name = "AuthenticationError";
+        this.reason = reason; // e.g., "INVALID_CREDENTIALS", "NETWORK_ERROR"
+    }
+}
+
+// Then in authentication:
+if (!isUserLoggedIn) {
+    const authError = new AuthenticationError("Login failed", "INVALID_CREDENTIALS"); // Pass a reason
+    handleError(authError); // The type of error can now be understood later via error.name and detailed info if present as properties such as error.reason
+    return;
+}
