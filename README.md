@@ -198,3 +198,17 @@ if (!isUserLoggedIn) {
     handleError(authError); // The type of error can now be understood later via error.name and detailed info if present as properties such as error.reason
     return;
 }
+async function retryStartMining(retries = 3, delay = 1000) { // Example 3 retries 
+    try {
+        const miningResult = await Pi.startMining();
+        // ... success handling 
+    } catch (error) {
+        if (error.code === "NETWORK_ERROR" && retries > 0) {
+            console.warn("Network error, retrying...", retries);
+            setTimeout(() => retryStartMining(retries - 1, delay * 2), delay); // Increase delay 
+        } else {
+            handleError(error);
+        }
+    }
+} 
+// In the mining section, call  retryStartMining();  
