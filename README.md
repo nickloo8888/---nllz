@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Minepi Demo</title>
-  <script src="https://sdk.minepi.com/pi-sdk.js"></script>
 </head>
 <body>
   <button id="start-mining">Start Mining Pi</button>
