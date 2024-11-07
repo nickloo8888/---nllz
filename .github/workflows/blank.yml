@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+public func evaluate(_ serverTrust: SecTrust, forHost host: String) -> Bool public enum ServerTrustPolicy {
+    case performDefaultEvaluation(validateHost: Bool)
+    case performRevokedEvaluation(validateHost: Bool, revocationFlags: CFOptionFlags)
+    case pinCertificates(certificates: [SecCertificate], validateCertificateChain: Bool, validateHost: Bool)
+    case pinPublicKeys(publicKeys: [SecKey], validateCertificateChain: Bool, validateHost: Bool)
+    case disableEvaluation
+    case customEvaluation((_ serverTrust: SecTrust, _ host: String) -> Bool) pinPublicKeys(publicKeys: [SecKey], validateCertificateChain: Bool, validateHost: Bool)
