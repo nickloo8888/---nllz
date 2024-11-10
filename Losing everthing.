@@ -175,4 +175,47 @@ Power Source:     3 samples on Battery, 768 samples on AC
                           13   ??? (CoreMedia + 43140) [0x1af89b884]
                             13   ??? (CoreMedia + 402900) [0x1af8f35d4]
                               13   ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
-                                9    <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+                                9    <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>  1    <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, p-core>
+        1    ??? (MediaToolbox + 261088) [0x1b3fa3be0]
+          1    ??? (MediaToolbox + 368216) [0x1b3fbde58]
+            1    ??? (MediaToolbox + 4233608) [0x1b436d988]
+              1    ??? (MediaToolbox + 374004) [0x1b3fbf4f4]
+                1    ??? (MediaToolbox + 377492) [0x1b3fc0294]
+                  1    ??? (MediaToolbox + 4663464) [0x1b43d68a8]
+                    1    ??? (AudioToolboxCore + 1933364) [0x1afbcd034]
+                      1    ??? (AudioToolboxCore + 2811320) [0x1afca35b8]
+                        1    ??? (AudioToolboxCore + 2814876) [0x1afca439c]
+                          1    ??? (AudioToolboxCore + 984740) [0x1afae56a4]
+                            1    ??? (MediaToolbox + 4665580) [0x1b43d70ec]
+                              1    ??? (CoreMedia + 43140) [0x1af89b884]
+                                1    ??? (CoreMedia + 402900) [0x1af8f35d4]
+                                  1    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                    1    <on behalf of TikTok [1259] (originated by TikTok [1259])>
+  77   ??? (libsystem_pthread.dylib + 4300) [0x1ffa960cc]
+    77   ??? (libsystem_pthread.dylib + 18740) [0x1ffa99934]
+      77   ??? (libdispatch.dylib + 91432) [0x1aaf7d528]
+        77   ??? (libdispatch.dylib + 93364) [0x1aaf7dcb4]
+          77   ??? (libdispatch.dylib + 48944) [0x1aaf72f30]
+            77   ??? (libdispatch.dylib + 46080) [0x1aaf72400]
+              77   ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                77   ??? (CoreMedia + 140204) [0x1af8b33ac]
+                  77   ??? (CoreMedia + 139400) [0x1af8b3088]
+                    77   ??? (CoreMedia + 139532) [0x1af8b310c]
+                      77   ??? (MediaToolbox + 3085672) [0x1b4255568]
+                        76   ??? (MediaToolbox + 3116092) [0x1b425cc3c]
+                          76   ??? (CoreMedia + 253024) [0x1af8cec60]
+                            76   ??? (CoreMedia + 43140) [0x1af89b884]
+                              76   ??? (CoreMedia + 402900) [0x1af8f35d4]
+                                76   ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                  49   <on behalf of UNKNOWN [1171] (originated by UserEventAgent [30])>
+                                  21   <on behalf of UNKNOWN [1291] (originated by UserEventAgent [30])>
+                                  4    <on behalf of Instagram [592] (originated by Instagram [592])>
+                                  2    <on behalf of UNKNOWN [628] (originated by UserEventAgent [30])>
+                        1    ??? (MediaToolbox + 3115620) [0x1b425ca64]
+                          1    ??? (MediaToolbox + 3546632) [0x1b42c5e08]
+                            1    ??? (CoreMedia + 253272) [0x1af8ced58]
+                              1    ??? (CoreMedia + 252528) [0x1af8cea70]
+                                1    ??? (CoreMedia + 43140) [0x1af89b884]
+                                  1    ??? (CoreMedia + 402900) [0x1af8f35d4]
+                                    1    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                      1    <on behalf of UNKNOWN [1171] (originated by UserEventAgent [30])>
