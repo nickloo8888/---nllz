@@ -95,3 +95,84 @@ Power Source:     5 samples on Battery, 97 samples on AC
                                           2    ??? (libsystem_c.dylib + 43164) [0x1aafb889c]
                                             2    ??? (libsystem_c.dylib + 44524) [0x1aafb8dec]
                                               2    ??? (libsystem_kernel.dylib + 40396) [0x1ebcbddcc]
+Binary Images:
+           0x104390000 -                ???  cfprefsd                <B4794192-D248-3B06-87A1-5BF727E20C30>  /usr/sbin/cfprefsd
+           0x1a3041000 -        0x1a356efff  CoreFoundation          <76A3B198-3C09-323E-8359-0D4978E156F5>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1aaf67000 -        0x1aafadfff  libdispatch.dylib       <5F66CDB6-08A9-3615-8C6A-4E3B47005495>  /usr/lib/system/libdispatch.dylib
+           0x1aafae000 -        0x1ab02bff3  libsystem_c.dylib       <7135C2C8-BA58-3636-8B46-A9E6226EAD45>  /usr/lib/system/libsystem_c.dylib
+           0x1ebcb4000 -        0x1ebcedfef  libsystem_kernel.dylib  <21EE5290-D119-3C31-B948-431865A67738>  /usr/lib/system/libsystem_kernel.dylib
+           0x1ffa95000 -        0x1ffaa1ff3  libsystem_pthread.dylib <E4A9D6DB-F93B-3C88-BDD1-85671EC22E2B>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   mediaplaybackd
+UUID:             A3B7567B-64FB-350E-8BE9-22DCCE3DB935
+Path:             /usr/libexec/mediaplaybackd
+Resource Coalition: 771 samples 640
+On Behalf Of:     680 samples UNKNOWN [628, 1117, 1171, 1291] (274 samples originated by backboardd [64], 243 samples originated by SpringBoard [33], 163 samples originated by UserEventAgent [30]), 64 samples CapCut [356, 790] (64 samples originated by CapCut [356, 790]), 18 samples Facebook [353, 921] (18 samples originated by Facebook [353, 921]), 8 samples Instagram [592] (8 samples originated by Instagram [592]), 1 sample TikTok [1259] (1 sample originated by TikTok [1259])
+Architecture:     arm64
+Start time:       2024-08-11 22:40:26.575 +0800
+End time:         2024-08-12 06:17:52.316 +0800
+Num samples:      771 (36%)
+Primary state:    497 samples Non-Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Utility, Requested Thread QoS Utility, Override Thread QoS Unspecified, e-core
+User Activity:    0 samples Idle, 771 samples Active
+Power Source:     3 samples on Battery, 768 samples on AC
+  694  ??? (libsystem_pthread.dylib + 4312) [0x1ffa960d8]
+    694  ??? (libsystem_pthread.dylib + 24684) [0x1ffa9b06c]
+      694  ??? (CoreMedia + 451048) [0x1af8ff1e8]
+        679  ??? (MediaToolbox + 381176) [0x1b3fc10f8]
+          679  ??? (MediaToolbox + 384212) [0x1b3fc1cd4]
+            679  ??? (MediaToolbox + 3556656) [0x1b42c8530]
+              679  ??? (MediaToolbox + 386164) [0x1b3fc2474]
+                679  ??? (MediaToolbox + 570468) [0x1b3fef464]
+                  679  ??? (MediaToolbox + 6320528) [0x1b456b190]
+                    397  ??? (MediaToolbox + 6322988) [0x1b456bb2c]
+                      391  ??? (CoreMedia + 253024) [0x1af8cec60]
+                        391  ??? (CoreMedia + 43140) [0x1af89b884]
+                          391  ??? (CoreMedia + 402900) [0x1af8f35d4]
+                            391  ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                              254  <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+                              46   <on behalf of UNKNOWN [1171] (originated by UserEventAgent [30])>
+                              38   <on behalf of UNKNOWN [1117] (originated by SpringBoard [33])>
+                              22   <on behalf of UNKNOWN [1291] (originated by UserEventAgent [30])>
+                              15   <on behalf of Facebook [921] (originated by Facebook [921])>
+                              5    <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, p-core>
+                              4    <on behalf of UNKNOWN [628] (originated by UserEventAgent [30])>
+                              4    <on behalf of Instagram [592] (originated by Instagram [592])>
+                              3    <on behalf of Facebook [353] (originated by Facebook [353])>
+                      6    ??? (MediaToolbox + 6325568) [0x1b456c540]
+                        6    ??? (CoreMedia + 253024) [0x1af8cec60]
+                          6    ??? (CoreMedia + 43140) [0x1af89b884]
+                            6    ??? (CoreMedia + 402900) [0x1af8f35d4]
+                              6    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                3    <on behalf of UNKNOWN [1171] (originated by UserEventAgent [30])>
+                                1    <on behalf of UNKNOWN [1117] (originated by SpringBoard [33])>
+                                1    <on behalf of UNKNOWN [1291] (originated by UserEventAgent [30])>
+                                1    <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+                    282  ??? (MediaToolbox + 6323168) [0x1b456bbe0]
+                      279  ??? (CoreMedia + 253024) [0x1af8cec60]
+                        279  ??? (CoreMedia + 43140) [0x1af89b884]
+                          279  ??? (CoreMedia + 402900) [0x1af8f35d4]
+                            279  ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                              201  <on behalf of UNKNOWN [1117] (originated by SpringBoard [33])>
+                              55   <on behalf of CapCut [790] (originated by CapCut [790])>
+                              14   <on behalf of UNKNOWN [1171] (originated by UserEventAgent [30])>
+                              9    <on behalf of CapCut [356] (originated by CapCut [356])>
+                      3    ??? (MediaToolbox + 6325568) [0x1b456c540]
+                        3    ??? (CoreMedia + 253024) [0x1af8cec60]
+                          3    ??? (CoreMedia + 43140) [0x1af89b884]
+                            3    ??? (CoreMedia + 402900) [0x1af8f35d4]
+                              3    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                3    <on behalf of UNKNOWN [1117] (originated by SpringBoard [33])>
+        13   ??? (MediaToolbox + 380748) [0x1b3fc0f4c]
+          13   ??? (MediaToolbox + 3550788) [0x1b42c6e44]
+            13   ??? (MediaToolbox + 384212) [0x1b3fc1cd4]
+              13   ??? (MediaToolbox + 3556656) [0x1b42c8530]
+                13   ??? (MediaToolbox + 386164) [0x1b3fc2474]
+                  13   ??? (MediaToolbox + 570468) [0x1b3fef464]
+                    13   ??? (MediaToolbox + 6320528) [0x1b456b190]
+                      13   ??? (MediaToolbox + 6322988) [0x1b456bb2c]
+                        13   ??? (CoreMedia + 253024) [0x1af8cec60]
+                          13   ??? (CoreMedia + 43140) [0x1af89b884]
+                            13   ??? (CoreMedia + 402900) [0x1af8f35d4]
+                              13   ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                9    <on behalf of UNKNOWN [1117] (originated by backboardd [64]), Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
