@@ -1,4 +1,187 @@
-{"duration_ms":"29518996","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 17.6.1 (21G93)","slice_uuid":"B4794192-D248-3B06-87A1-5BF727E20C30","is_first_party":0,"incident_id":"D0B2FCD0-04C0-4078-AAD8-7C0170B41773","timestamp":"2024-08-12 06:38:06.00 +0800","app_name":"cfprefsd","name":"cfprefsd"}
+Binary Images:
+           0x1049cc000 -                ???  mediaplaybackd          <A3B7567B-64FB-350E-8BE9-22DCCE3DB935>  /usr/libexec/mediaplaybackd
+           0x1aaf67000 -        0x1aafadfff  libdispatch.dylib       <5F66CDB6-08A9-3615-8C6A-4E3B47005495>  /usr/lib/system/libdispatch.dylib
+           0x1af891000 -        0x1af9f4fff  CoreMedia               <35B7D26F-99EC-3D5B-819D-1D221DE0ED60>  /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+           0x1af9f5000 -        0x1afd58fff  AudioToolboxCore        <ADDBD52C-8E7C-30D0-B2DE-8374AEC54F8B>  /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+           0x1b3f64000 -        0x1b4978fff  MediaToolbox            <9A11034D-9D6D-349D-9E43-AFF4CADCB2FE>  /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+           0x1ebcb4000 -        0x1ebcedfef  libsystem_kernel.dylib  <21EE5290-D119-3C31-B948-431865A67738>  /usr/lib/system/libsystem_kernel.dylib
+           0x1ffa95000 -        0x1ffaa1ff3  libsystem_pthread.dylib <E4A9D6DB-F93B-3C88-BDD1-85671EC22E2B>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   TikTok
+UUID:             5FBF621D-FA0C-316C-ACF0-FCE89E508746
+Path:             /private/var/containers/Bundle/Application/CF328606-18B8-42E9-9BE1-8A8221095884/TikTok.app/TikTok
+Identifier:       com.ss.iphone.ugc.Ame
+Version:          35.1.0 (351033)
+Adam ID:          1235601864
+Is First Party:   No
+Beta Identifier:  2DAFF174-14F2-41A6-8063-1E5B82C0F115
+Resource Coalition: 291 samples 525
+On Behalf Of:     9 samples SpringBoard [33] (5 samples originated by TikTok [352, 959, 1083, 1100], 4 samples originated by SpringBoard [33]), 6 samples UNKNOWN [35, 955] (6 samples originated by TikTok [691, 1259]), 1 sample audiomxd [97] (1 sample originated by SpringBoard [33])
+Architecture:     arm64
+Start time:       2024-08-11 22:38:47.396 +0800
+End time:         2024-08-12 06:27:03.473 +0800
+Num samples:      291 (14%)
+Primary state:    136 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified, p-core
+User Activity:    2 samples Idle, 289 samples Active
+Power Source:     18 samples on Battery, 273 samples on AC
+  177  ??? (libsystem_pthread.dylib + 4300) [0x1ffa960cc]
+    166  ??? (libsystem_pthread.dylib + 18740) [0x1ffa99934]
+      166  ??? (libdispatch.dylib + 91432) [0x1aaf7d528]
+        166  ??? (libdispatch.dylib + 93364) [0x1aaf7dcb4]
+          166  ??? (libdispatch.dylib + 48944) [0x1aaf72f30]
+            165  ??? (libdispatch.dylib + 46080) [0x1aaf72400]
+              165  ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                164  ??? (libdispatch.dylib + 8508) [0x1aaf6913c]
+                  61   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135015272) [0x108cd2b68]
+                    48   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135035808) [0x108cd7ba0]
+                      48   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135049772) [0x108cdb22c]
+                        47   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135049952) [0x108cdb2e0]
+                          46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135054632) [0x108cdc528]
+                            46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776472) [0x1117d4f18]
+                              46   ??? (libdispatch.dylib + 78532) [0x1aaf7a2c4]
+                                46   ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                  46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776564) [0x1117d4f74]
+                                    46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135055540) [0x108cdc8b4]
+                                      46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766436) [0x1117d27e4]
+                                        46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766236) [0x1117d271c]
+                                          46   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280779868) [0x1117d5c5c]
+                                            38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135428576) [0x108d379e0]
+                                              38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135450156) [0x108d3ce2c]
+                                                38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135468008) [0x108d413e8]
+                                                  38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 271304400) [0x110ecc6d0]
+                                                    38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135281688) [0x108d13c18]
+                                                      38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135282848) [0x108d140a0]
+                                                        38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135283304) [0x108d14268]
+                                                          38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135284864) [0x108d14880]
+                                                            38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135291756) [0x108d1636c]
+                                                              38   ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                                                5    <e-core>
+                                                                5    <Requested Thread QoS Default>
+                                                                3    <Non-Frontmost App, Effective Thread QoS Background, e-core>
+                                                                2    <Effective Thread QoS Default, Requested Thread QoS Default>
+                                                                1    <on behalf of SpringBoard [33] (originated by SpringBoard [33])>
+                                            8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135428724) [0x108d37a74]
+                                              8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135065712) [0x108cdf070]
+                                                8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135287156) [0x108d15174]
+                                                  8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135287444) [0x108d15294]
+                                                    8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135287628) [0x108d1534c]
+                                                      8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135289364) [0x108d15a14]
+                                                        8    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135291756) [0x108d1636c]
+                                                          8    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                                            1    <on behalf of audiomxd [97] (originated by SpringBoard [33]), e-core>
+                                                            1    <on behalf of SpringBoard [33] (originated by TikTok [1100])>
+                          1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135054524) [0x108cdc4bc]
+                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135055436) [0x108cdc84c]
+                              1    ??? (libdispatch.dylib + 22100) [0x1aaf6c654]
+                                1    ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                  1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 130718716) [0x1088b9bfc]
+                                    1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 130719128) [0x1088b9d98]
+                                      1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776472) [0x1117d4f18]
+                                        1    ??? (libdispatch.dylib + 78532) [0x1aaf7a2c4]
+                                          1    ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776564) [0x1117d4f74]
+                                              1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766340) [0x1117d2784]
+                                                1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766204) [0x1117d26fc]
+                                                  1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280763636) [0x1117d1cf4]
+                                                    1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135244524) [0x108d0aaec]
+                                                      1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135244944) [0x108d0ac90]
+                                                        1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135245940) [0x108d0b074]
+                                                          1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135248600) [0x108d0bad8]
+                                                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135250196) [0x108d0c114]
+                                                              1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 132762276) [0x108aacaa4]
+                                                                1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135167864) [0x108cf7f78]
+                                                                  1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135168004) [0x108cf8004]
+                                                                    1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 132757732) [0x108aab8e4]
+                                                                      1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135451124) [0x108d3d1f4]
+                                                                        1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135452200) [0x108d3d628]
+                                                                          1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135453280) [0x108d3da60]
+                                                                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135453632) [0x108d3dbc0]
+                                                                              1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135454436) [0x108d3dee4]
+                                                                                1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 271319308) [0x110ed010c]
+                                                                                  1    ??? (libsystem_platform.dylib + 5196) [0x1ff9e044c]
+                                                                                    1    <on behalf of SpringBoard [33] (originated by TikTok [959])>
+                        1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 133499576) [0x108b60ab8]
+                          1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 133500024) [0x108b60c78]
+                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776828) [0x1117d507c]
+                              1    ??? (libdispatch.dylib + 78532) [0x1aaf7a2c4]
+                                1    ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                  1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280777096) [0x1117d5188]
+                                    1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280767464) [0x1117d2be8]
+                                      1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766340) [0x1117d2784]
+                                        1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766236) [0x1117d271c]
+                                          1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280779868) [0x1117d5c5c]
+                                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135428576) [0x108d379e0]
+                                              1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135450240) [0x108d3ce80]
+                                                1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135468008) [0x108d413e8]
+                                                  1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 271304400) [0x110ecc6d0]
+                                                    1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135281688) [0x108d13c18]
+                                                      1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135282848) [0x108d140a0]
+                                                        1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135283304) [0x108d14268]
+                                                          1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135284864) [0x108d14880]
+                                                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135291756) [0x108d1636c]
+                                                              1    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                    13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135034608) [0x108cd76f0]
+                      13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135037308) [0x108cd817c]
+                        13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776472) [0x1117d4f18]
+                          13   ??? (libdispatch.dylib + 78532) [0x1aaf7a2c4]
+                            13   ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                              13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280776564) [0x1117d4f74]
+                                13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 267818716) [0x110b796dc]
+                                  13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766436) [0x1117d27e4]
+                                    13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280766236) [0x1117d271c]
+                                      13   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280779868) [0x1117d5c5c]
+                                        9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135428576) [0x108d379e0]
+                                          9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135450156) [0x108d3ce2c]
+                                            9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135468008) [0x108d413e8]
+                                              9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 271304400) [0x110ecc6d0]
+                                                9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135281688) [0x108d13c18]
+                                                  9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135282848) [0x108d140a0]
+                                                    9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135283304) [0x108d14268]
+                                                      9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135284864) [0x108d14880]
+                                                        9    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135291756) [0x108d1636c]
+                                                          9    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                                            1    <e-core>
+                                                            1    <Effective Thread QoS Default, Requested Thread QoS Default>
+                                        4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135428724) [0x108d37a74]
+                                          4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135065712) [0x108cdf070]
+                                            4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135287156) [0x108d15174]
+                                              4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135287444) [0x108d15294]
+                                                4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135287628) [0x108d1534c]
+                                                  4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135289364) [0x108d15a14]
+                                                    4    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135291756) [0x108d1636c]
+                                                      4    ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                                        1    <Effective Thread QoS Utility, Requested Thread QoS Utility, e-core>
+                                                        1    <Requested Thread QoS Default>
+                  38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135952784) [0x108db7990]
+                    38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 141980732) [0x10937743c]
+                      38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135952960) [0x108db7a40]
+                        38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135953352) [0x108db7bc8]
+                          38   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135954080) [0x108db7ea0]
+                            30   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135428576) [0x108d379e0]
+                              23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135450156) [0x108d3ce2c]
+                                23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135468008) [0x108d413e8]
+                                  23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 271304400) [0x110ecc6d0]
+                                    23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135281688) [0x108d13c18]
+                                      23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135282848) [0x108d140a0]
+                                        23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135283304) [0x108d14268]
+                                          23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135284864) [0x108d14880]
+                                            23   ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135291756) [0x108d1636c]
+                                              23   ??? (libsystem_kernel.dylib + 30708) [0x1ebcbb7f4]
+                                                4    <e-core>
+                                                2    <Non-Frontmost App, Effective Thread QoS Background, e-core>
+                                                2    <on behalf of SpringBoard [33] (originated by SpringBoard [33])>
+                              7    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135441816) [0x108d3ad98]
+                                6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135130696) [0x108ceee48]
+                                  6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135277536) [0x108d12be0]
+                                    6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135278124) [0x108d12e2c]
+                                      6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135455644) [0x108d3e39c]
+                                        6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135460340) [0x108d3f5f4]
+                                          6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135278368) [0x108d12f20]
+                                            6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135278544) [0x108d12fd0]
+                                              6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135282848) [0x108d140a0]
+                                                6    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 135283304) [0x108d14268]
+                                                  {"duration_ms":"29518996","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 17.6.1 (21G93)","slice_uuid":"B4794192-D248-3B06-87A1-5BF727E20C30","is_first_party":0,"incident_id":"D0B2FCD0-04C0-4078-AAD8-7C0170B41773","timestamp":"2024-08-12 06:38:06.00 +0800","app_name":"cfprefsd","name":"cfprefsd"}
 Date/Time:        2024-08-11 22:26:04.110 +0800
 End time:         2024-08-12 06:38:03.106 +0800
 OS Version:       iPhone OS 17.6.1 (Build 21G93)
