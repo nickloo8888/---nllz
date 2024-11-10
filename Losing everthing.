@@ -1,1 +1,54 @@
-.
+{"duration_ms":"29518996","share_with_app_devs":0,"roots_installed":0,"bug_type":"145","os_version":"iPhone OS 17.6.1 (21G93)","slice_uuid":"B4794192-D248-3B06-87A1-5BF727E20C30","is_first_party":0,"incident_id":"D0B2FCD0-04C0-4078-AAD8-7C0170B41773","timestamp":"2024-08-12 06:38:06.00 +0800","app_name":"cfprefsd","name":"cfprefsd"}
+Date/Time:        2024-08-11 22:26:04.110 +0800
+End time:         2024-08-12 06:38:03.106 +0800
+OS Version:       iPhone OS 17.6.1 (Build 21G93)
+Architecture:     arm64e
+Report Version:   49
+Incident Identifier: D0B2FCD0-04C0-4078-AAD8-7C0170B41773
+
+Data Source:      Microstackshots
+Shared Cache:     81AF7D10-D1AA-3D1A-9CD9-F8B0BADF5190 slid base address 0x19aec8000, slide 0x1aec8000
+
+Command:          cfprefsd
+Path:             /usr/sbin/cfprefsd
+Resource Coalition: 137
+Architecture:     arm64
+PID:              96
+
+Event:            disk writes
+Action taken:     none
+Writes:           1073.75 MB of file backed memory dirtied over 29519 seconds (36.37 KB per second average), exceeding limit of 12.43 KB per second over 86400 seconds
+Writes limit:     1073.74 MB
+Limit duration:   86400s
+Writes caused:    1073.75 MB
+Writes duration:  29519s
+Duration:         29519.00s
+Duration Sampled: 29407.52s
+Steps:            2150 (10.49 MB/step)
+
+Hardware model:   iPad12,1
+Active cpus:      6
+HW page size:     16384
+VM page size:     16384
+
+OS Cryptex File Extents: 7356
+
+Heaviest stack for the target process:
+  102  ??? (libsystem_pthread.dylib + 4300) [0x1ffa960cc]
+  102  ??? (libsystem_pthread.dylib + 18740) [0x1ffa99934]
+  102  ??? (libdispatch.dylib + 91432) [0x1aaf7d528]
+  102  ??? (libdispatch.dylib + 93364) [0x1aaf7dcb4]
+  102  ??? (libdispatch.dylib + 48944) [0x1aaf72f30]
+  102  ??? (libdispatch.dylib + 45700) [0x1aaf72284]
+  102  ??? (libdispatch.dylib + 105868) [0x1aaf80d8c]
+  102  ??? (libdispatch.dylib + 111048) [0x1aaf821c8]
+  102  ??? (libdispatch.dylib + 29400) [0x1aaf6e2d8]
+  102  ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+  102  ??? (CoreFoundation + 1116816) [0x1a3151a90]
+  102  ??? (CoreFoundation + 346504) [0x1a3095988]
+  102  ??? (CoreFoundation + 352216) [0x1a3096fd8]
+  102  ??? (CoreFoundation + 352740) [0x1a30971e4]
+  100  ??? (CoreFoundation + 357816) [0x1a30985b8]
+  100  ??? (CoreFoundation + 1152336) [0x1a315a550]
+  95   ??? (libsystem_kernel.dylib + 23836) [0x1ebcb9d1c]
+
