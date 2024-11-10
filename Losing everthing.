@@ -1,4 +1,224 @@
-Binary Images:
+1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 285210260) [0x111c0f694]
+                                                1    ??? (libsystem_kernel.dylib + 23836) [0x1ebcb9d1c]
+                                                  1    <Effective Thread QoS User Interactive, Requested Thread QoS User Interactive>
+              1    ??? (CoreFoundation + 341124) [0x1a3094484]
+                1    ??? (CoreFoundation + 344728) [0x1a3095298]
+                  1    ??? (CoreFoundation + 354248) [0x1a30977c8]
+                    1    ??? (CoreFoundation + 354356) [0x1a3097834]
+                      1    ??? (FrontBoardServices + 97200) [0x1bbe4fbb0]
+                        1    ??? (FrontBoardServices + 97496) [0x1bbe4fcd8]
+                          1    ??? (FrontBoardServices + 97624) [0x1bbe4fd58]
+                            1    ??? (libdispatch.dylib + 30828) [0x1aaf6e86c]
+                              1    ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                1    ??? (FrontBoardServices + 112636) [0x1bbe537fc]
+                                  1    ??? (FrontBoardServices + 91852) [0x1bbe4e6cc]
+                                    1    ??? (FrontBoardServices + 92228) [0x1bbe4e844]
+                                      1    ??? (FrontBoardServices + 26340) [0x1bbe3e6e4]
+                                        1    ??? (UIKitCore + 3156776) [0x1a55c5b28]
+                                          1    ??? (UIKitCore + 3157832) [0x1a55c5f48]
+                                            1    ??? (UIKitCore + 2326032) [0x1a54fae10]
+                                              1    ??? (UIKitCore + 2327736) [0x1a54fb4b8]
+                                                1    ??? (UIKitCore + 2333824) [0x1a54fcc80]
+                                                  1    ??? (UIKitCore + 1466024) [0x1a5428ea8]
+                                                    1    ??? (UIKitCore + 1468520) [0x1a5429868]
+                                                      1    ??? (UIKitCore + 1470140) [0x1a5429ebc]
+                                                        1    ??? (UIKitCore + 1471892) [0x1a542a594]
+                                                          1    ??? (UIKitCore + 1680224) [0x1a545d360]
+                                                            1    ??? (UIKitCore + 4239768) [0x1a56ce198]
+                                                              1    ??? (UIKitCore + 4240520) [0x1a56ce488]
+                                                                1    ??? (UIKitCore + 2328328) [0x1a54fb708]
+                                                                  1    ??? (UIKitCore + 4238736) [0x1a56cdd90]
+                                                                    1    ??? (UIKitCore + 15487816) [0x1a6188348]
+                                                                      1    ??? (UIKitCore + 3939116) [0x1a5684b2c]
+                                                                        1    ??? (UIKitCore + 15488360) [0x1a6188568]
+                                                                          1    ??? (Foundation + 201300) [0x1a1f1e254]
+                                                                            1    ??? (CoreFoundation + 326584) [0x1a3090bb8]
+                                                                              1    ??? (CoreFoundation + 333296) [0x1a30925f0]
+                                                                                1    ??? (CoreFoundation + 333480) [0x1a30926a8]
+                                                                                  1    ??? (CoreFoundation + 333708) [0x1a309278c]
+                                                                                    1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280881448) [0x1117ee928]
+                                                                                      1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280871368) [0x1117ec1c8]
+                                                                                        1    ??? (libdispatch.dylib + 78532) [0x1aaf7a2c4]
+                                                                                          1    ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                                                                            1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280881584) [0x1117ee9b0]
+                                                                                              1    ??? (<D97E0782-6FEC-3B64-B9C5-B4B02546CE70> + 280856800) [0x1117e88e0]
+                                                                                                1    ??? (Foundation + 133476) [0x1a1f0d964]
+                                                                                                  1    ??? (libsystem_kernel.dylib + 24980) [0x1ebcba194]
+                                                                                                    1    <on behalf of SpringBoard [33] (originated by SpringBoard [33]), Non-Frontmost App, Effective Thread QoS User Interactive, Requested Thread QoS User Interactive>
+
+  Binary Images:
+           0x100368000 -                ???  com.ss.iphone.ugc.Ame 35.1.0 (351033) <5FBF621D-FA0C-316C-ACF0-FCE89E508746>  /private/var/containers/Bundle/Application/CF328606-18B8-42E9-9BE1-8A8221095884/TikTok.app/TikTok
+           0x100c10000 -                ???  ???                                   <D97E0782-6FEC-3B64-B9C5-B4B02546CE70>
+           0x1a1eed000 -        0x1a2a62fff  Foundation                            <D27A6EC5-943C-3B0E-8D15-8840FD2914F0>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x1a3041000 -        0x1a356efff  CoreFoundation                        <76A3B198-3C09-323E-8359-0D4978E156F5>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1a52c3000 -        0x1a6de4fff  UIKitCore                             <9DA0D273-5506-3712-B73D-E0149D74C13C>  /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+           0x1aaf67000 -        0x1aafadfff  libdispatch.dylib                     <5F66CDB6-08A9-3615-8C6A-4E3B47005495>  /usr/lib/system/libdispatch.dylib
+           0x1aafae000 -        0x1ab02bff3  libsystem_c.dylib                     <7135C2C8-BA58-3636-8B46-A9E6226EAD45>  /usr/lib/system/libsystem_c.dylib
+           0x1bbe38000 -        0x1bbefcfff  FrontBoardServices                    <6B1D2F3D-825E-3495-B60D-7763B72628AA>  /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+           0x1c682e000 -        0x1c68bb937  dyld                                  <52039C94-4DA1-3638-BD52-020A0B5FA399>  /usr/lib/dyld
+           0x1e7ae0000 -        0x1e7ae8fff  GraphicsServices                      <3EBBD576-E7D8-3F69-BCB5-B9810DDCC90E>  /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+           0x1ebcb4000 -        0x1ebcedfef  libsystem_kernel.dylib                <21EE5290-D119-3C31-B948-431865A67738>  /usr/lib/system/libsystem_kernel.dylib
+           0x1ff9df000 -        0x1ff9e5ff3  libsystem_platform.dylib              <4B4E9E32-2E40-3578-99C1-CD1C907B8CE5>  /usr/lib/system/libsystem_platform.dylib
+           0x1ffa95000 -        0x1ffaa1ff3  libsystem_pthread.dylib               <E4A9D6DB-F93B-3C88-BDD1-85671EC22E2B>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   com_kwai_gif (Kuaishou)
+UUID:             A0BE3A87-AFA3-3F68-BF3C-0584DD6A6E4D
+Path:             /private/var/containers/Bundle/Application/844C0393-3825-4D7D-A501-FE81D76DB1D8/com_kwai_gif.app/com_kwai_gif
+Identifier:       com.jiangjia.gif
+Version:          12.6.60 (8860)
+Adam ID:          440948110
+Is First Party:   No
+Beta Identifier:  49307A06-94D2-4E4B-A8F6-2DC647D6773D
+Resource Coalition: 186 samples 506
+On Behalf Of:     9 samples SpringBoard [33] (7 samples originated by SpringBoard [33], 2 samples originated by com_kwai_gif (Kuaishou) [336])
+Architecture:     arm64
+Start time:       2024-08-12 05:05:41.827 +0800
+End time:         2024-08-12 05:32:48.410 +0800
+Num samples:      186 (9%)
+Primary state:    178 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Default, Requested Thread QoS Default, Override Thread QoS Unspecified, p-core
+User Activity:    0 samples Idle, 186 samples Active
+Power Source:     0 samples on Battery, 186 samples on AC
+  127  ??? (libsystem_pthread.dylib + 4312) [0x1ffa960d8]
+    127  ??? (libsystem_pthread.dylib + 24684) [0x1ffa9b06c]
+      123  ??? (com_kwai_gif + 51728548) [0x1033a50a4]
+        123  ??? (com_kwai_gif + 51728748) [0x1033a516c]
+          121  ??? (com_kwai_gif + 61073900) [0x103c8e9ec]
+            121  ??? (com_kwai_gif + 61074824) [0x103c8ed88]
+              56   ??? (com_kwai_gif + 60144080) [0x103bab9d0]
+                56   ??? (com_kwai_gif + 60142632) [0x103bab428]
+                  55   ??? (com_kwai_gif + 60488568) [0x103bffb78]
+                    55   ??? (com_kwai_gif + 60491476) [0x103c006d4]
+                      55   ??? (com_kwai_gif + 60397436) [0x103be977c]
+                        55   ??? (com_kwai_gif + 106757780) [0x10681fe94]
+                          55   ??? (com_kwai_gif + 106835656) [0x106832ec8]
+                            55   ??? (libsystem_c.dylib + 48268) [0x1aafb9c8c]
+                              55   ??? (libsystem_c.dylib + 18740) [0x1aafb2934]
+                                55   ??? (libsystem_c.dylib + 47856) [0x1aafb9af0]
+                                  55   ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                                    55   ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+                                      19   <e-core>
+                  1    ??? (com_kwai_gif + 60488576) [0x103bffb80]
+                    1    ??? (com_kwai_gif + 60492108) [0x103c0094c]
+                      1    ??? (com_kwai_gif + 60492188) [0x103c0099c]
+                        1    ??? (com_kwai_gif + 60489120) [0x103bffda0]
+                          1    ??? (com_kwai_gif + 55329408) [0x103714280]
+                            1    ??? (com_kwai_gif + 60331404) [0x103bd958c]
+                              1    ??? (com_kwai_gif + 79880040) [0x104e7df68]
+                                1    ??? (com_kwai_gif + 106833216) [0x106832540]
+                                  1    ??? (libsystem_kernel.dylib + 30312) [0x1ebcbb668]
+              41   ??? (com_kwai_gif + 61180272) [0x103ca8970]
+                41   ??? (com_kwai_gif + 61175412) [0x103ca7674]
+                  41   ??? (com_kwai_gif + 61217016) [0x103cb18f8]
+                    41   ??? (com_kwai_gif + 60402572) [0x103beab8c]
+                      41   ??? (com_kwai_gif + 60893236) [0x103c62834]
+                        41   ??? (com_kwai_gif + 74204232) [0x104914448]
+                          41   ??? (com_kwai_gif + 74206040) [0x104914b58]
+                            41   ??? (com_kwai_gif + 74195284) [0x104912154]
+                              30   ??? (com_kwai_gif + 171496132) [0x10a5dd2c4]
+                                30   ??? (com_kwai_gif + 76522192) [0x104b4a2d0]
+                                  30   ??? (com_kwai_gif + 76633052) [0x104b653dc]
+                                    27   ??? (com_kwai_gif + 76643908) [0x104b67e44]
+                                      27   ??? (com_kwai_gif + 76627872) [0x104b63fa0]
+                                        15   ??? (com_kwai_gif + 76598668) [0x104b5cd8c]
+                                          15   ??? (com_kwai_gif + 76601612) [0x104b5d90c]
+                                            15   ??? (libsystem_kernel.dylib + 23836) [0x1ebcb9d1c]
+                                              7    <e-core>
+                                        11   ??? (com_kwai_gif + 76598376) [0x104b5cc68]
+                                          11   ??? (com_kwai_gif + 76494700) [0x104b4376c]
+                                            11   ??? (com_kwai_gif + 146377472) [0x108de8b00]
+                                              11   ??? (com_kwai_gif + 146377692) [0x108de8bdc]
+                                                11   ??? (com_kwai_gif + 146377740) [0x108de8c0c]
+                                                  10   ??? (com_kwai_gif + 146379840) [0x108de9440]
+                                                    10   ??? (libsystem_c.dylib + 48268) [0x1aafb9c8c]
+                                                      10   ??? (libsystem_c.dylib + 18764) [0x1aafb294c]
+                                                        10   ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                                                          10   ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+                                                            4    <e-core>
+                                                  1    ??? (com_kwai_gif + 146380452) [0x108de96a4]
+                                                    1    ??? (libsystem_c.dylib + 47424) [0x1aafb9940]
+                                                      1    ??? (libsystem_c.dylib + 47856) [0x1aafb9af0]
+                                                        1    ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                                                          1    ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+                                        1    ??? (com_kwai_gif + 76598400) [0x104b5cc80]
+                                          1    ??? (com_kwai_gif + 76499480) [0x104b44a18]
+                                            1    ??? (Foundation + 645764) [0x1a1f8aa84]
+                                              1    ??? (Foundation + 108576) [0x1a1f07820]
+                                                1    ??? (Foundation + 116096) [0x1a1f09580]
+                                                  1    ??? (Foundation + 118512) [0x1a1f09ef0]
+                                                    1    ??? (libremovefile.dylib + 5304) [0x22cb994b8]
+                                                      1    ??? (libremovefile.dylib + 6476) [0x22cb9994c]
+                                                        1    ??? (libsystem_kernel.dylib + 26384) [0x1ebcba710]
+                                    3    ??? (com_kwai_gif + 76640868) [0x104b67264]
+                                      3    ??? (com_kwai_gif + 76626668) [0x104b63aec]
+                                        3    ??? (com_kwai_gif + 76494700) [0x104b4376c]
+                                          3    ??? (com_kwai_gif + 146377472) [0x108de8b00]
+                                            3    ??? (com_kwai_gif + 146377692) [0x108de8bdc]
+                                              3    ??? (com_kwai_gif + 146377740) [0x108de8c0c]
+                                                3    ??? (com_kwai_gif + 146379840) [0x108de9440]
+                                                  3    ??? (libsystem_c.dylib + 48268) [0x1aafb9c8c]
+                                                    3    ??? (libsystem_c.dylib + 18764) [0x1aafb294c]
+                                                      3    ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                                                        3    ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+                                                          2    <e-core>
+                              10   ??? (com_kwai_gif + 165277712) [0x109fef010]
+                                10   ??? (<325A657D-7B12-3347-850F-C7768BF56C2C> + 1478504) [0x10e754f68]
+                                  10   ??? (libdispatch.dylib + 78532) [0x1aaf7a2c4]
+                                    10   ??? (libdispatch.dylib + 15828) [0x1aaf6add4]
+                                      10   ??? (<325A657D-7B12-3347-850F-C7768BF56C2C> + 1483116) [0x10e75616c]
+                                        10   ??? (<325A657D-7B12-3347-850F-C7768BF56C2C> + 1478580) [0x10e754fb4]
+                                          10   ??? (com_kwai_gif + 144007176) [0x108ba6008]
+                                            10   ??? (<325A657D-7B12-3347-850F-C7768BF56C2C> + 1466116) [0x10e751f04]
+                                              9    ??? (Foundation + 133140) [0x1a1f0d814]
+                                                9    ??? (Foundation + 1192992) [0x1a2010420]
+                                                  9    ??? (Foundation + 1193100) [0x1a201048c]
+                                                    9    ??? (Foundation + 1193248) [0x1a2010520]
+                                                      9    ??? (libsystem_kernel.dylib + 23836) [0x1ebcb9d1c]
+                                                        6    <e-core>
+                                              1    ??? (Foundation + 133476) [0x1a1f0d964]
+                                                1    ??? (libsystem_kernel.dylib + 24980) [0x1ebcba194]
+                                                  1    <e-core>
+                              1    ??? (com_kwai_gif + 151979912) [0x109340788]
+                                1    ??? (com_kwai_gif + 146377620) [0x108de8b94]
+                                  1    ??? (com_kwai_gif + 146377692) [0x108de8bdc]
+                                    1    ??? (com_kwai_gif + 146377740) [0x108de8c0c]
+                                      1    ??? (com_kwai_gif + 146379840) [0x108de9440]
+                                        1    ??? (libsystem_c.dylib + 48268) [0x1aafb9c8c]
+                                          1    ??? (libsystem_c.dylib + 18764) [0x1aafb294c]
+                                            1    ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                                              1    ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+              24   ??? (com_kwai_gif + 61179672) [0x103ca8718]
+                24   ??? (com_kwai_gif + 61178600) [0x103ca82e8]
+                  23   ??? (com_kwai_gif + 60263608) [0x103bc8cb8]
+                    23   ??? (com_kwai_gif + 106757780) [0x10681fe94]
+                      23   ??? (com_kwai_gif + 106835656) [0x106832ec8]
+                        23   ??? (libsystem_c.dylib + 48268) [0x1aafb9c8c]
+                          23   ??? (libsystem_c.dylib + 18740) [0x1aafb2934]
+                            23   ??? (libsystem_c.dylib + 47856) [0x1aafb9af0]
+                              23   ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                                23   ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+                                  10   <e-core>
+                  1    ??? (com_kwai_gif + 106770380) [0x106822fcc]
+                    1    ??? (com_kwai_gif + 106834456) [0x106832a18]
+                      1    ??? (libsystem_c.dylib + 47232) [0x1aafb9880]
+                        1    ??? (libsystem_c.dylib + 47856) [0x1aafb9af0]
+                          1    ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                            1    ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+          1    ??? (com_kwai_gif + 61075428) [0x103c8efe4]
+            1    ??? (com_kwai_gif + 60143200) [0x103bab660]
+              1    ??? (com_kwai_gif + 60459312) [0x103bf8930]
+                1    ??? (com_kwai_gif + 60446372) [0x103bf56a4]
+                  1    ??? (com_kwai_gif + 60212772) [0x103bbc624]
+                    1    ??? (com_kwai_gif + 106770380) [0x106822fcc]
+                      1    ??? (com_kwai_gif + 106834456) [0x106832a18]
+                        1    ??? (libsystem_c.dylib + 47232) [0x1aafb9880]
+                          1    ??? (libsystem_c.dylib + 47856) [0x1aafb9af0]
+                            1    ??? (libsystem_c.dylib + 52940) [0x1aafbaecc]
+                              1    ??? (libsystem_kernel.dylib + 32332) [0x1ebcbbe4c]
+          1    ??? (com_kwai_gif + 60939748) [0x103c6dde4]
+            1    ??? (com_kwai_gif + 61071620) [0x103c8e104]
+              1    ??? (com_kwai_gif + 61178284) [0x103ca81ac]
+                1    ??? (com_kwai_gif + 602Binary Images:
            0x1049cc000 -                ???  mediaplaybackd          <A3B7567B-64FB-350E-8BE9-22DCCE3DB935>  /usr/libexec/mediaplaybackd
            0x1aaf67000 -        0x1aafadfff  libdispatch.dylib       <5F66CDB6-08A9-3615-8C6A-4E3B47005495>  /usr/lib/system/libdispatch.dylib
            0x1af891000 -        0x1af9f4fff  CoreMedia               <35B7D26F-99EC-3D5B-819D-1D221DE0ED60>  /System/Library/Frameworks/CoreMedia.framework/CoreMedia
